@@ -12,7 +12,7 @@ This portfolio showcases:
 - Skills 
 
 ## Live Demo  
-Hosted on GitHub : [sharonkadamandla.github.io](http://sharonkadamandla.github.io)  
+https://sharondev.com
 
 ## Version Control  
 Managed using **Git**  

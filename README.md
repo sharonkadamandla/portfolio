@@ -20,5 +20,4 @@ Managed using **Git**
 ## Credits  
 This project is based on a tutorial by **John Doe**. The code was written while following his public tutorial and GitHub repository.  
 
-- **YouTube Tutorial:** [Watch Here](https://www.youtube.com/watch?v=ldwlOzRvYOU)  
 

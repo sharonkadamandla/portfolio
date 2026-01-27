@@ -1,5 +1,5 @@
  
-# Sharon Kadamandla - Portfolio  
+# My Portfolio & Business Website
 
 Built using **HTML, CSS, & JavaScript**  
 

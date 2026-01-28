@@ -45,63 +45,11 @@
           src="./assets/arrow.png"
           alt="Arrow icon"
           class="icon arrow"
-          onclick="location.href='./#about'"
-        />
-    </section>
-
-    <section id="about">
-        <p class="section__text__p1">Get To Know More</p>
-        <h1 class="title">About Me</h1>
-        
-        <div class="section-container">
-          
-          <div class="about-details-container">
-            <div class="text-container">
-              <p >               I design and build fast and reliable back-end services, crafting user-friendly front-ends.
-                Over my year and a half with Virtusa, I’ve containerized and shipped microservice APIs using Docker, and supported releases for enterprise clients. 
-                During my free time, I rebuilt my church’s website end-to-end, moving it from hard code to Wix and handling everything from structure to launch.
-                My bread and butter is Python & Spring Boot, with some side projects exploring NLP and Power BI dashboards because great products run on both scalable code and actionable insight.
-              </p>
-            </div>
-
-            <div class="about-containers">
-              <div class="details-container">
-                <img
-                  src="./assets/experience.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <h3>Experience (1+ Years)</h3><br />
-                <p>Associate Engineer Technology (2022-23) <br /><a href="https://www.virtusa.com">Virtusa,</a> India</p><br /> 
-                
-                <p>Internship (2022-22)<br /><a href="https://www.virtusa.com">Virtusa,</a> India</p><br />
-
-                <p>Teaching Assistant (2021-22)<br /><a href="https://smartinterviews.in">Smart Interviews,</a> India</p>
-              </div>
-              <div class="details-container">
-                <img
-                  src="./assets/education.png"
-                  alt="Education icon"
-                  class="icon"
-                />
-                <h3>Education</h3><br />
-                <p>PG Diploma in Data Analysis for Business Decision Making <br/> <em> Graduated with Honours</em> (2024-25) </p><br />
-               
-                <p>PG Diploma in AI Analysis, Design & Implementation <br /> <em>Graduated with Honours</em>  (2023-24)</p><br />
-                <p>Bachelors in Computer Science Engineering<br/>(2018-22)</p>
-                
-              </div>
-            </div>
-            
-          </div>
-        </div>
-        <img
-          src="./assets/arrow.png"
-          alt="Arrow icon"
-          class="icon arrow"
           onclick="location.href='./#reviews'"
         />
     </section>
+
+    
 
     <section id="reviews">
         <p class="section__text__p1">It's weird to talk about myself. Let this cool people do it for me!</p>
@@ -319,9 +267,6 @@
         <p class="section__text__p1">Browse My Recent</p>
         <h1 class="title">Projects</h1>
 
-        
-
-
         <div class="experience-details-container">
           <div class="about-containers">
             <div class="details-container color-container">
@@ -370,55 +315,7 @@
           </div>
         </div>
 
-        <div class="experience-details-container">
-          <div class="about-containers">
 
-
-            <div class="details-container color-container">
-              <div class="article-container">
-              </div>
-              <h2 class="experience-sub-title project-title">Audio Translator - Google Cloud, OpenAI</h2>
-              <div class="btn-container">
-                <button
-                  class="btn btn-color-2 project-btn"
-                  onclick="location.href='https://github.com/sharonkadamandla/AudioTranslator'"
-                >
-                  Github
-                </button>
-              </div>
-            </div>
-
-            <div class="details-container color-container">
-              <div class="article-container">
-              </div>
-              <h2 class="experience-sub-title project-title">Next Word Predictor using AI</h2>
-              <div class="btn-container">
-                <button
-                  class="btn btn-color-2 project-btn"
-                  onclick="location.href='https://github.com/A2I-Capstone/NextWordPrediction'"
-                >
-                  Github
-                </button>
-              </div>
-            </div>
-
-            <div class="details-container color-container">
-              <div class="article-container">
-              </div>
-              <h2 class="experience-sub-title project-title">CV Analysis using AI</h2>
-              <div class="btn-container">
-                <button
-                  class="btn btn-color-2 project-btn"
-                  onclick="location.href='https://github.com/FAIVE-AI/CV-ANALYSIS-USING-NLP'"
-                >
-                  Github
-                </button>
-              </div>
-            </div>
-
-          
-          </div>
-        </div>
         <!-- Next Page Arrow Image -->
         <img
           src="./assets/arrow.png"
@@ -451,19 +348,4 @@
           </div>
         </div>
       </section>
-      <footer>
-        <nav>
-          <div class="nav-links-container">
-            <ul class="nav-links">
-              <li><a href="#about">About</a></li>
-              <li><a href="#experience">Experience</a></li>
-              <li><a href="#projects">Projects</a></li>
-              <li><a href="#contact">Contact</a></li>
-            </ul>
-          </div>
-        </nav>
-        
-      </footer>
-    <script src="script.js"></script>
-</body>
-</html> 
+      <?php include  'footer.php'; ?>

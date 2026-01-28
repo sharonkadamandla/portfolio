@@ -2,8 +2,7 @@
     <div class="about-details-container"><div class="text-container">
               <p style="text-align: center;">
                 You are early! </br>
-                Still Under Construction
+                --- Under Construction ---
               </p>
     </div>
-</body>
-</html> 
+<?php include  'footer.php'; ?>

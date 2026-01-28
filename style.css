@@ -397,6 +397,15 @@ section {
 
 /* ABOUT SECTION */
 
+#background {
+    position: relative;
+    max-width: 1350px; 
+    margin: 0 auto; 
+    min-height: 100vh;
+
+    height: auto;
+    padding: 1 1rem;
+}
 #about {
     position: relative;
     /* max-width: 1350px;  */
@@ -418,12 +427,12 @@ section {
 }
 
 .about-details-container {
+    display: flex;
     justify-content: center;
     flex-direction: column;
 }
   
-.about-containers,
-.about-details-container {
+.about-containers {
     display: flex;
     
 }

@@ -13,13 +13,12 @@
     
     <nav id="desktop-nav">
       <header class="sticky-header">
-        <a href="#top">
+        <a href="index.php">
         <h1 class ="logo">Sharon Kadamandla</h1>
         </a>
         <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#projects">Projects</a></li>
+                <li><a href="about.php">About</a></li>
+                <li><a href="work.php">Work</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
       </header>
@@ -34,9 +33,8 @@
             <span></span>
           </div>
           <div class="menu-links">
-            <li><a href="#about" onclick="toggleMenu()">About</a></li>
-            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="about.php" onclick="toggleMenu()">About</a></li>
+            <li><a href="work.php" onclick="toggleMenu()">Work</a></li>
             <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
           </div>
         </div>

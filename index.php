@@ -45,11 +45,63 @@
           src="./assets/arrow.png"
           alt="Arrow icon"
           class="icon arrow"
-          onclick="location.href='./#reviews'"
+          onclick="location.href='./#about'"
         />
     </section>
 
-    
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        
+        <div class="section-container">
+          
+          <div class="about-details-container">
+            <div class="text-container">
+              <p >               I design and build fast and reliable back-end services, crafting user-friendly front-ends.
+                Over my year and a half with Virtusa, I’ve containerized and shipped microservice APIs using Docker, and supported releases for enterprise clients. 
+                During my free time, I rebuilt my church’s website end-to-end, moving it from hard code to Wix and handling everything from structure to launch.
+                My bread and butter is Python & Spring Boot, with some side projects exploring NLP and Power BI dashboards because great products run on both scalable code and actionable insight.
+              </p>
+            </div>
+
+            <div class="about-containers">
+              <div class="details-container">
+                <img
+                  src="./assets/experience.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <h3>Experience (1+ Years)</h3><br />
+                <p>Associate Engineer Technology (2022-23) <br /><a href="https://www.virtusa.com">Virtusa,</a> India</p><br /> 
+                
+                <p>Internship (2022-22)<br /><a href="https://www.virtusa.com">Virtusa,</a> India</p><br />
+
+                <p>Teaching Assistant (2021-22)<br /><a href="https://smartinterviews.in">Smart Interviews,</a> India</p>
+              </div>
+              <div class="details-container">
+                <img
+                  src="./assets/education.png"
+                  alt="Education icon"
+                  class="icon"
+                />
+                <h3>Education</h3><br />
+                <p>PG Diploma in Data Analysis for Business Decision Making <br/> <em> Graduated with Honours</em> (2024-25) </p><br />
+               
+                <p>PG Diploma in AI Analysis, Design & Implementation <br /> <em>Graduated with Honours</em>  (2023-24)</p><br />
+                <p>Bachelors in Computer Science Engineering<br/>(2018-22)</p>
+                
+              </div>
+            </div>
+            
+          </div>
+        </div>
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#reviews'"
+        />
+    </section>
 
     <section id="reviews">
         <p class="section__text__p1">It's weird to talk about myself. Let this cool people do it for me!</p>
@@ -96,12 +148,7 @@
 
           </div>
 
-        <img
-          src="./assets/arrow.png"
-          alt="Arrow icon"
-          class="icon arrow"
-          onclick="location.href='./#experience'"
-        />
+        
     </section>
 
     
@@ -255,39 +302,20 @@
             </div>
           </div>
         </div>
-        <img
-          src="./assets/arrow.png"
-          alt="Arrow icon"
-          class="icon arrow"
-          onclick="location.href='./#projects'"
-        />
+        
     </section>
 
-    <section id="projects">
-        <p class="section__text__p1">Browse My Recent</p>
-        <h1 class="title">Projects</h1>
+    <section id="project">
+        <p class="section__text__p1">Checkout</p>
+        <h1 class="title">My Latest Projects</h1>
 
-        <div class="experience-details-container">
-          <div class="about-containers">
-            <div class="details-container color-container">
-              <div class="article-container">
-              </div>
-
-              <h2 class="experience-sub-title project-title">HRBC Website - Wix, Wix Velo</h2>
-              <div class="btn-container">
-                <button
-                  class="btn btn-color-2 project-btn"
-                  onclick="location.href='https://www.harmony-road.com'"
-                >
-                  Website
-                </button>
-              </div>
-            </div>
+        <div class="project-details-container">
+          <div class="project-containers">
+            
 
             <div class="details-container color-container">
-              <div class="article-container">
-              </div>
-              <h2 class="experience-sub-title project-title">This Protfolio - HTML,CSS,JS</h2>
+              <img src="./assets/portfolio.png" alt="Portfolio project" class="project-img" />
+              <p>A responsive personal portfolio website showcasing my skills and projects. Built with HTML, CSS, and JavaScript to create an interactive and visually appealing design with smooth navigation and modern styling.</p>
               <div class="btn-container">
                 <button
                   class="btn btn-color-2 project-btn"
@@ -297,11 +325,10 @@
                 </button>
               </div>
             </div>
-            <div class="details-container color-container">
-              <div class="article-container">
-              </div>
 
-              <h2 class="experience-sub-title project-title">Millennial’s Career Hub</h2>
+            <div class="details-container color-container">
+              <img src="./assets/mch.png" alt="Millennial's Career Hub" class="project-img" />
+              <p>A professional career development platform designed to help millennials navigate their career path. This website provides resources, mentorship opportunities, and networking features to support career growth and professional development.</p>
               <div class="btn-container">
                 <button
                   class="btn btn-color-2 project-btn"
@@ -315,14 +342,7 @@
           </div>
         </div>
 
-
-        <!-- Next Page Arrow Image -->
-        <img
-          src="./assets/arrow.png"
-          alt="Arrow icon"
-          class="icon arrow"
-          onclick="location.href='./#contact'"
-        />
+        
     </section>
 
 <!-- Contact Section -->

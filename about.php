@@ -14,27 +14,6 @@
                 My bread and butter is Python & Spring Boot, with some side projects exploring NLP and Power BI dashboards because great products run on both scalable code and actionable insight.
               </p>
             </div>
-            
-          </div>
-        </div>
-        <!-- Next Page Arrow Image -->
-        <img
-          src="./assets/arrow.png"
-          alt="Arrow icon"
-          class="icon arrow"
-          onclick="location.href='./#background'"
-        />
-        
-    </section>
-
-    <section id="background">
-        <p class="section__text__p1">Get To Know More</p>
-        <h1 class="title">About Me</h1>
-        
-        <div class="section-container">
-          
-          <div class="about-details-container">
-            
 
             <div class="about-containers">
               <div class="details-container">

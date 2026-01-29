@@ -19,7 +19,7 @@
         <ul class="nav-links">
                 <li><a href="about.php">About</a></li>
                 <li><a href="work.php">Work</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="index.php#contact">Contact</a></li>
             </ul>
       </header>
     </nav>
@@ -35,7 +35,7 @@
           <div class="menu-links">
             <li><a href="about.php" onclick="toggleMenu()">About</a></li>
             <li><a href="work.php" onclick="toggleMenu()">Work</a></li>
-            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            <li><a href="index.php#contact" onclick="toggleMenu()">Contact</a></li>
           </div>
         </div>
     </nav>

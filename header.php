@@ -25,17 +25,19 @@
     </nav>
 
     <nav id="hamburger-nav">
+      <a href="index.php">
         <div class="logo">Sharon Kadamandla</div>
+        </a>
         <div class="hamburger-menu">
           <div class="hamburger-icon" onclick="toggleMenu()">
             <span></span>
             <span></span>
             <span></span>
           </div>
-          <div class="menu-links">
+          <ul class="menu-links">
             <li><a href="about.php" onclick="toggleMenu()">About</a></li>
             <li><a href="work.php" onclick="toggleMenu()">Work</a></li>
             <li><a href="index.php#contact" onclick="toggleMenu()">Contact</a></li>
-          </div>
+          </ul>
         </div>
     </nav>

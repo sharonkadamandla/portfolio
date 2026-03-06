@@ -1,9 +1,11 @@
 /* General */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
+
 * {
     margin: 0;
     padding: 0;
+    outline: 1px solid red;
 }
 
 body {
@@ -313,21 +315,22 @@ section {
     position: relative;
     max-width: 1350px; 
     margin: 0 auto; 
-    min-height: 930px;
+    /* min-height: 930px; */
     height: auto;
     padding: 1 1rem;
+    box-sizing: border-box;
 }
 
 
 /* Slideshow container */
 .slideshow-container {
-    width: min(100%, 1000px);
-    max-width: 1000px;
+    width: min(90%, 1000px);
+    max-width: 100%;
     margin: 2rem auto;
     position: relative;
     box-sizing: border-box;
     border-radius: 2rem;
-    overflow: hidden;
+    overflow: contain;
     /* Use an aspect ratio so the slide box scales but keeps consistent size across slides */
     aspect-ratio: 16 / 9;
     max-height: 70vh;
@@ -355,7 +358,7 @@ section {
         width: 85%;
         max-width: calc(100% - 1rem);
         max-height: calc(100% - 1rem);
-        overflow: auto; /* allow content to scroll inside the slide if needed */
+        /* overflow: auto; allow content to scroll inside the slide if needed */
         box-sizing: border-box;
         align-items: center;
         justify-content: center;
@@ -372,7 +375,7 @@ section {
 }
 
 @media (max-width: 420px) {
-    .slideshow-container { aspect-ratio: 1 / 1; max-height: 55vh; }
+    .slideshow-container { aspect-ratio: 1 / 2; max-height: auto; }
     .slide-content { padding: 0.6rem; font-size: 0.95rem; }
     .prev { left: 0.4rem; }
     .next { right: 0.4rem; }
@@ -546,20 +549,19 @@ article .icon {
     flex-direction: column;
 }
 
-
-
 .project-containers {
     display: flex;
     gap: 2rem;
     margin-bottom: 2rem;
     margin-top: 2rem;
-    max-height: 500px;
+    /* max-height: 500px; */
     flex-wrap: wrap;
     justify-content: center;
 }
 
 .project-containers .details-container {
-    flex: 1;
+    flex: 1 1 300px;
+    max-width: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -590,10 +592,10 @@ article .icon {
     border-radius: 1rem;
     height: auto;
     width: calc(100% - 1rem); 
-    aspect-ratio: 18 / 9; 
-    object-fit: cover; 
-    max-width: 768px;
-    display: flex;
+    aspect-ratio: 16 / 9; 
+    object-fit: contain; 
+    /* max-width: 768px; */
+    display: block;
 }
 
 @media (max-width: 768px) {
@@ -602,19 +604,22 @@ article .icon {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        width: 100%;
+        width: 95%;
     }
     
     .project-containers .details-container {
-        min-width: 90%;
-        max-width: 410px;
+        max-width: 90%;
+        /* max-width: 410px; */
         width: 90%;
+    }
+    .work-containers{
+        max-width: 90%;
     }
     
     
     .project-img {
-        height: 210px;
-        width: 400px;
+        height: auto;
+        width: calc(100%-1rem);
     }
 }
 

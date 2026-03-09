@@ -358,7 +358,7 @@ section {
         width: 85%;
         max-width: calc(100% - 1rem);
         max-height: calc(100% - 1rem);
-        /* overflow: auto; allow content to scroll inside the slide if needed */
+        overflow: auto; /*allow content to scroll inside the slide if needed */
         box-sizing: border-box;
         align-items: center;
         justify-content: center;
@@ -674,6 +674,28 @@ article .icon {
   
 .email-icon {
     height: 2.5rem;
+}
+
+/* Faith-Statement Section */
+.faith-details {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    min-height: auto;
+}
+
+.faith-box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    border-radius: 1rem;
+    border-color: blueviolet;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
 }
   
 /* FOOTER SECTION */

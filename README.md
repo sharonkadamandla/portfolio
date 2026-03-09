@@ -1,7 +1,7 @@
  
 # My Portfolio & Business Website
 
-Built using **HTML, CSS, & JavaScript**  
+Built using **HTML, PHP, CSS, & JavaScript**  
 
 ## Overview  
 

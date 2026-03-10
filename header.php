@@ -13,13 +13,13 @@
     
     <nav id="desktop-nav">
       <header class="sticky-header">
-        <a href="index.php">
+        <a href="index">
         <h1 class ="logo">Sharon Kadamandla</h1>
         </a>
         <ul class="nav-links">
-                <li><a href="about.php">About</a></li>
-                <li><a href="work.php">Work</a></li>
-                <li><a href="index.php#contact">Contact</a></li>
+                <li><a href="about">About</a></li>
+                <li><a href="work">Work</a></li>
+                <li><a href="index#contact">Contact</a></li>
             </ul>
       </header>
     </nav>

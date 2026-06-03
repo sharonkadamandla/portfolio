@@ -190,7 +190,8 @@ a:hover {
 
 section {
     padding-top: 80px;
-    height: 100vh;
+    min-height: 100vh;
+    height: auto;    
     margin: 0 10rem;
     box-sizing: border-box;
     min-height: fit-content;

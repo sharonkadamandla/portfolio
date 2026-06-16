@@ -1,18 +1,18 @@
 <?php include  'header.php'; ?>
 <section id="faith-statement">
-  <p class="section__text__p1">
-  I believe Jesus Christ is Lord, and my work, character, and decisions are accountable to Him</br>
-</p>
+ 
     <h1 class="title">
-                My Work is Accountable to God
+                I am a Christian web designer
 </h1>
-
+ <p class="section__text__p1">
+   and my faith is the foundation of everything I do</br>
+</p>
 <div class="about-containers">
 
 <div class="details-container">
 <p>
-  I am not perfect, and I do not pretend to be. </br>
-  What I pursue instead is faithfulness! doing my work with integrity, humility, and a sincere desire to honor God.
+
+  What I pursue is faithfulness! doing my work with integrity, humility, and a sincere desire to honor God.
 </p>
 </div>
 
@@ -28,9 +28,14 @@ Favorite Song:</p>
 <div class="text-container">
 <h1>Why I Build Websites for Churches and Ministries?</h1>
 <p>
-  As a committed Christian with biblical knowledge and experience working with faith-based organizations, I understand the unique needs of churches and ministries.
-   This allows me to build websites that accurately reflect their mission, communicate their message clearly, and support their outreach effectively.
-</p>
+  As a Christian web designer, I create websites that faithfully reflect a church's mission, communicate its message clearly, and support its ministry goals. 
+  My passion is helping churches and ministries reach more people, strengthen community engagement, and extend their impact through an effective online presence.
+</p></br>
+  
+  <p>Here is a church website that I built from scratch and actively maintain: 
+    <a href="https://www.harmony-road.com/" target="_blank">Harmony Road Baptist Church
+    <img src="assets/hrbc-logo.png" alt="Harmony Road Baptist Church Website" class="section__hrbc-container"></a>
+ </p>
 
     </div>
 </div>

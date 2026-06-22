@@ -11,7 +11,7 @@
             <p class="section__text__p2">Software Developer</p>
             <div class="btn-container">
               <button
-                class="btn btn-color-2"
+                class="btn btn-color-1"
                 onclick="window.open('./assets/resume.pdf')"
               >
                 Resume
@@ -263,7 +263,7 @@
               <p>A responsive personal portfolio website showcasing my skills and projects. Built with HTML, CSS, and JavaScript to create an interactive and visually appealing design with smooth navigation and modern styling.</p>
               <div class="btn-container">
                 <button
-                  class="btn btn-color-2 project-btn"
+                  class="btn btn-color-1 project-btn"
                   onclick="location.href='https://github.com/sharonkadamandla/portfolio'"
                 >
                   Github
@@ -276,7 +276,7 @@
               <p>A professional career development platform designed to help millennials navigate their career path. This website provides resources, mentorship opportunities, and networking features to support career growth and professional development.</p>
               <div class="btn-container">
                 <button
-                  class="btn btn-color-2 project-btn"
+                  class="btn btn-color-1 project-btn"
                   onclick="location.href='https://www.millennialscareerhub.ca'"
                 >
                   Website

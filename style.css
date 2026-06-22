@@ -131,7 +131,7 @@ a:hover {
   position: absolute;
   top: 100%;
   right: 0;
-  background-color: white;
+  /* background-color: black; */
   width: fit-content;
   max-height: 0;
   overflow: hidden;
@@ -663,7 +663,7 @@ article .icon {
 .project-btn {
   margin: 1rem;
   color: white;
-  border-color: rgb(112, 108, 108);
+  border-color: rgb(193, 184, 184);
 }
 
 /* CONTACT */

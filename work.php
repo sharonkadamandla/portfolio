@@ -12,7 +12,7 @@
               <h2 class="experience-sub-title project-title">HRBC Website - Wix, Wix Velo</h2>
               <div class="btn-container">
                 <button
-                  class="btn btn-color-2 project-btn"
+                  class="btn btn-color-1 project-btn"
                   onclick="location.href='https://www.harmony-road.com'"
                 >
                   Website
@@ -24,7 +24,7 @@
               <h2 class="experience-sub-title project-title">This Protfolio - HTML,CSS,JS</h2>
               <div class="btn-container">
                 <button
-                  class="btn btn-color-2 project-btn"
+                  class="btn btn-color-1 project-btn"
                   onclick="location.href='https://github.com/sharonkadamandla/portfolio'"
                 >
                   Github
@@ -37,7 +37,7 @@
               <h2 class="experience-sub-title project-title">Millennial’s Career Hub</h2>
               <div class="btn-container">
                 <button
-                  class="btn btn-color-2 project-btn"
+                  class="btn btn-color-1 project-btn"
                   onclick="location.href='https://www.millennialscareerhub.ca'"
                 >
                   Website
@@ -53,7 +53,7 @@
               <h2 class="experience-sub-title project-title">Audio Translator - Google Cloud, OpenAI</h2>
               <div class="btn-container">
                 <button
-                  class="btn btn-color-2 project-btn"
+                  class="btn btn-color-1 project-btn"
                   onclick="location.href='https://github.com/sharonkadamandla/AudioTranslator'"
                 >
                   Github
@@ -66,7 +66,7 @@
               <h2 class="experience-sub-title project-title">Next Word Predictor using AI</h2>
               <div class="btn-container">
                 <button
-                  class="btn btn-color-2 project-btn"
+                  class="btn btn-color-1 project-btn"
                   onclick="location.href='https://github.com/A2I-Capstone/NextWordPrediction'"
                 >
                   Github
@@ -79,7 +79,7 @@
               <h2 class="experience-sub-title project-title">CV Analysis using AI</h2>
               <div class="btn-container">
                 <button
-                  class="btn btn-color-2 project-btn"
+                  class="btn btn-color-1 project-btn"
                   onclick="location.href='https://github.com/FAIVE-AI/CV-ANALYSIS-USING-NLP'"
                 >
                   Github

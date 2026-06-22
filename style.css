@@ -131,7 +131,10 @@ a:hover {
   position: absolute;
   top: 100%;
   right: 0;
-  /* background-color: black; */
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px); /* Required for Safari support */
+  border-radius: 8px;
+
   width: fit-content;
   max-height: 0;
   overflow: hidden;

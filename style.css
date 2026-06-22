@@ -555,6 +555,12 @@ section {
   flex-direction: column;
   justify-content: center;
 }
+.scroll-wrapper {
+  overflow-x: hidden;
+  white-space: nowrap;
+  width: 100%;
+  padding-bottom: 1rem; /* Add some padding to avoid cutting off content */
+}
 
 .article-container {
   display: flex;
@@ -563,8 +569,24 @@ section {
   flex-direction: row;
   gap: 2.5rem;
   justify-content: space-around;
+  width: max-content;
+  animation: marquee 20s linear infinite;
 }
+/* .article-container {
+  display: flex;
+  gap: 2rem;
+  width: max-content;
+  animation: marquee 20s linear infinite;
+} */
 
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
 article {
   display: flex;
   width: 10rem;

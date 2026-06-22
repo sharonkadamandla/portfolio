@@ -101,7 +101,8 @@
         <div class="experience-details-container">
           <div class="about-containers">
             <div class="details-container">
-              <h2 class="experience-sub-title">Languages / Frontend</h2>
+              <!-- <h2 class="experience-sub-title">Languages / Frontend</h2> -->
+            <div class="scroll-wrapper">
 
               <div class="article-container">
                 <article>
@@ -192,12 +193,12 @@
                     <p>Intermediate</p>
                   </div>
                 </article>
-              </div>
-            </div>
+              <!-- </div>
+            </div> -->
 
-            <div class="details-container">
-              <h2 class="experience-sub-title">FrameWorks / Tools / Technologies</h2>
-              <div class="article-container">
+            <!-- <div class="details-container"> -->
+              <!-- <h2 class="experience-sub-title">FrameWorks / Tools / Technologies</h2> -->
+              <!-- <div class="article-container"> -->
                 <article>
                   <img
                     src="./assets/checkmark.png"
@@ -209,6 +210,7 @@
                     <p>Basic</p>
                   </div>
                 </article>
+
                 <article>
                   <img
                     src="./assets/checkmark.png"
@@ -243,7 +245,7 @@
                   </div>
                 </article>
               </div>
-              
+</div>
             </div>
           </div>
         </div>

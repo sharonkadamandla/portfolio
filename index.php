@@ -101,7 +101,6 @@
         <div class="experience-details-container">
           <div class="about-containers">
             <div class="details-container">
-              <!-- <h2 class="experience-sub-title">Languages / Frontend</h2> -->
             <div class="scroll-wrapper">
 
               <div class="article-container">
@@ -193,12 +192,6 @@
                     <p>Intermediate</p>
                   </div>
                 </article>
-              <!-- </div>
-            </div> -->
-
-            <!-- <div class="details-container"> -->
-              <!-- <h2 class="experience-sub-title">FrameWorks / Tools / Technologies</h2> -->
-              <!-- <div class="article-container"> -->
                 <article>
                   <img
                     src="./assets/checkmark.png"
@@ -210,7 +203,29 @@
                     <p>Basic</p>
                   </div>
                 </article>
-
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>DevOps</h3>
+                    <p>Basic</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Wix</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+               
                 <article>
                   <img
                     src="./assets/checkmark.png"
@@ -244,6 +259,165 @@
                     <p>Intermediate</p>
                   </div>
                 </article>
+
+                <!-- Repeat -->
+<article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Java</h3>
+                    <p>Experienced</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Python</h3>
+                    <p>Experienced</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>XML</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>C++</h3>
+                      <p>Intermediate</p>
+                    </div>
+                </article>
+                <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>SQL</h3>
+                      <p>Experienced</p>
+                    </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>JavaScript</h3>
+                    <p>Basic</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>HTML</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>CSS</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Design Patterns</h3>
+                    <p>Basic</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>DevOps</h3>
+                    <p>Basic</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Wix</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Dockers</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Data Structures</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Git</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+
+
+                <!-- Repeat -->
               </div>
 </div>
             </div>

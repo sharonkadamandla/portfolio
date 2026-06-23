@@ -572,13 +572,6 @@ section {
   width: max-content;
   animation: marquee 20s linear infinite;
 }
-/* .article-container {
-  display: flex;
-  gap: 2rem;
-  width: max-content;
-  animation: marquee 20s linear infinite;
-} */
-
 @keyframes marquee {
   from {
     transform: translateX(0);
@@ -587,6 +580,7 @@ section {
     transform: translateX(-50%);
   }
 }
+
 article {
   display: flex;
   width: 10rem;

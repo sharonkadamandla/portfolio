@@ -22,7 +22,7 @@
             </div>
             <div id="socials-container">
               <img
-                src="./assets/linkedin.png"
+                src="./assets/linkedin.webp"
                 alt="My LinkedIn profile"
                 class="socials-icon"
                 onclick="location.href='https://www.linkedin.com/in/sharonkadamandla/'"
@@ -33,12 +33,12 @@
                 class="socials-icon"
                 onclick="location.href='https://github.com/sharonkadamandla'"
               />
-              <img
+              <!-- <img
                 src="./assets/cross.png"
                 alt="Faith Statement"
                 class="socials-icon"
                 onclick="location.href='faithstatement.php'"
-              />
+              /> -->
             </div>
         </div>
         
@@ -481,7 +481,7 @@
           </div>
           <div class="contact-info-container">
             <img
-              src="./assets/linkedin.png"
+              src="./assets/linkedin.webp"
               alt="LinkedIn icon"
               class="icon contact-icon"
             />

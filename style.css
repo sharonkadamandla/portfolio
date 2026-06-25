@@ -9,7 +9,8 @@
 
 body {
   background-color: black;
-  /* color: white; Added to keep text readable on a dark background */
+  color: white;
+  /* Added to keep text readable on a dark background */
 
   font-family: "Poppins", sans-serif;
 }
@@ -40,10 +41,10 @@ a,
   align-items: center;
   display: flex;
   width: 70%;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 253, 253, 0.3);
   /* z-index: 10;      */
   height: 60px;
-  box-shadow: 0 2px 6px 0 rgba(203, 202, 202, 0.12);
+  box-shadow: 0 2px 6px 0 rgba(255, 255, 255, 0.609);
   border-radius: 2rem;
 }
 
@@ -188,7 +189,7 @@ a:hover {
 
 section {
   padding-top: 80px;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   height: auto;
   margin: 0 10rem;
   box-sizing: border-box;
@@ -312,23 +313,26 @@ section {
 #reviews {
   position: relative;
   max-width: 1350px;
+  width: 100%;
   margin: 0 auto;
-  /* min-height: 930px; */
-  height: auto;
-  padding: 1 1rem;
+  /* min-height: 930px;
+  height: auto; */
+  padding: 2rem;
   box-sizing: border-box;
 }
 
 /* Slideshow container */
 .slideshow-container {
-  width: min(90%, 1000px);
+  width: 100%;
   /* background: rgb(116, 116, 116); */
-  max-width: 100%;
+  max-width: 2400px;
   margin: 2rem auto;
+  border: rgb(53, 53, 53) 0.1rem solid;
+
   position: relative;
   box-sizing: border-box;
   border-radius: 2rem;
-  overflow: contain;
+  overflow: hidden;
   /* Use an aspect ratio so the slide box scales but keeps consistent size across slides */
   aspect-ratio: 16 / 9;
   max-height: 70vh;
@@ -407,7 +411,13 @@ section {
 
 /* Solid background option/s */
 .bg1 {
-  background: #80849b;
+  background: #1c1c1e;
+}
+.bg2 {
+  background: #1c1c1e;
+}
+.bg3 {
+  background: #2c2c2e;
 }
 
 /* Navigation arrows */
@@ -497,10 +507,10 @@ section {
   padding: 1.5rem;
   flex: 1;
   flex-direction: column;
-  background: rgb(97, 110, 119);
+  background: bg1;
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
-  border-color: rgb(163, 163, 163);
+  /* border-color: rgb(163, 163, 163); */
   text-align: center;
   min-width: 250px;
 }
@@ -635,10 +645,9 @@ article .icon {
   position: relative;
 }
 
-.color-container {
+/* .color-container {
   border-color: rgb(163, 163, 163);
   /* background: rgb(250, 250, 250); */
-}
 
 .project-img {
   border-radius: 1rem;
@@ -699,7 +708,7 @@ article .icon {
   justify-content: center;
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
-  border-color: rgb(163, 163, 163);
+  /* border-color: rgb(163, 163, 163); */
   background: (250, 250, 250);
   margin: 2rem auto;
   padding: 0.5rem;

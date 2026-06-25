@@ -41,7 +41,6 @@
               /> -->
             </div>
         </div>
-        
     </section>
 
     <section id="reviews">
@@ -50,10 +49,10 @@
         
         
           <!-- Slideshow container -->
-          <div class="slideshow-container">
+          <div class="slideshow-container fade bg2">
 
             <!-- Each slide has a solid background and text that can be customized -->
-            <div class="mySlides fade bg1">
+            <div class="mySlides">
               <div class="slide-content">
                 "Sharon built a new website for Harmony Road Baptist Church using Wix and designed it to be functional and elegant, 
                 while still being easily maintained by users with limited technical ability. 
@@ -63,7 +62,7 @@
               </div>
             </div>
 
-            <div class="mySlides fade bg1">
+            <div class="mySlides">
               <div class="slide-content">
                 "I had an excellent experience working with Sharon, on the Millennial’s Career Hub website. 
                 She followed every instruction with precision, paid close attention to detail, and translated my vision exactly as I had imagined it. 
@@ -73,7 +72,7 @@
               </div>
             </div>
 
-            <div class="mySlides fade bg1">
+            <div class="mySlides">
               <div class="slide-content">
                 "I had the pleasure of working with Sharon at Virtusa, where she was an outstanding Software Engineer with strong expertise in Java and Python.
                  She took complete ownership of her module, which made collaboration seamless and highly efficient. 
@@ -100,7 +99,7 @@
 
         <div class="experience-details-container">
           <div class="about-containers">
-            <div class="details-container">
+            <div class="details-container fades bg3">
             <div class="scroll-wrapper">
 
               <div class="article-container">
@@ -417,7 +416,6 @@
                 </article>
 
 
-                <!-- Repeat -->
               </div>
 </div>
             </div>
@@ -434,7 +432,7 @@
           <div class="project-containers">
             
 
-            <div class="details-container color-container">
+            <div class="details-container bg2 ">
               <img src="./assets/portfolio.png" alt="Portfolio project" class="project-img" />
               <p>A responsive personal portfolio website showcasing my skills and projects. Built with HTML, CSS, and JavaScript to create an interactive and visually appealing design with smooth navigation and modern styling.</p>
               <div class="btn-container">
@@ -447,7 +445,7 @@
               </div>
             </div>
 
-            <div class="details-container color-container">
+            <div class="details-container bg2">
               <img src="./assets/mch.png" alt="Millennial's Career Hub" class="project-img" />
               <p>A professional career development platform designed to help millennials navigate their career path. This website provides resources, mentorship opportunities, and networking features to support career growth and professional development.</p>
               <div class="btn-container">
@@ -470,7 +468,7 @@
     <section id="contact">
         <p class="section__text__p1">Get in Touch</p>
         <h1 class="title">Contact Me</h1>
-        <div class="contact-info-upper-container">
+        <div class="contact-info-upper-container bg2">
           <div class="contact-info-container">
             <img
               src="./assets/email.png"

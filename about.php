@@ -16,12 +16,12 @@
             </div>
 
             <div class="about-containers">
-              <div class="details-container">
-                <img
+              <div class="details-container bg2">
+                <!-- <img
                   src="./assets/experience.png"
                   alt="Experience icon"
                   class="icon"
-                />
+                /> -->
                 <h3>Experience (1+ Years)</h3><br />
                 <p>Associate Engineer Technology (2022-23) <br /><a href="https://www.virtusa.com">Virtusa,</a> India</p><br /> 
                 
@@ -29,12 +29,12 @@
 
                 <p>Teaching Assistant (2021-22)<br /><a href="https://smartinterviews.in">Smart Interviews,</a> India</p>
               </div>
-              <div class="details-container">
-                <img
+              <div class="details-container bg2">
+                <!-- <img
                   src="./assets/education.png"
                   alt="Education icon"
                   class="icon"
-                />
+                /> -->
                 <h3>Education</h3><br />
                 <p>PG Diploma in Data Analysis for Business Decision Making <br/> <em> Graduated with Honours</em> (2024-25) </p><br />
                

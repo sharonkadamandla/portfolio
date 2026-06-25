@@ -8,7 +8,7 @@
         <div class="project-details-container">
           <div class="project-containers">
 
-            <div class="details-container color-container">
+            <div class="details-container bg2">
               <h2 class="experience-sub-title project-title">HRBC Website - Wix, Wix Velo</h2>
               <div class="btn-container">
                 <button
@@ -20,7 +20,7 @@
               </div>
             </div>
 
-            <div class="details-container color-container">
+            <div class="details-container bg2">
               <h2 class="experience-sub-title project-title">This Protfolio - HTML,CSS,JS</h2>
               <div class="btn-container">
                 <button
@@ -32,7 +32,7 @@
               </div>
             </div>
 
-            <div class="details-container color-container">
+            <div class="details-container bg2">
 
               <h2 class="experience-sub-title project-title">Millennial’s Career Hub</h2>
               <div class="btn-container">
@@ -48,7 +48,7 @@
           
 
 
-            <div class="details-container color-container">
+            <div class="details-container bg2">
               
               <h2 class="experience-sub-title project-title">Audio Translator - Google Cloud, OpenAI</h2>
               <div class="btn-container">
@@ -61,7 +61,7 @@
               </div>
             </div>
 
-            <div class="details-container color-container">
+            <div class="details-container bg2">
 
               <h2 class="experience-sub-title project-title">Next Word Predictor using AI</h2>
               <div class="btn-container">
@@ -74,7 +74,7 @@
               </div>
             </div>
 
-            <div class="details-container color-container">
+            <div class="details-container bg2">
 
               <h2 class="experience-sub-title project-title">CV Analysis using AI</h2>
               <div class="btn-container">

@@ -16,11 +16,7 @@
             </div>
             <div class="about-containers">
               <div class="details-container bg2">
-                <!-- <img
-                  src="./assets/experience.png"
-                  alt="Experience icon"
-                  class="icon"
-                /> -->
+                
                 <h3>Experience (1+ Years)</h3><br />
                 <p>Associate Engineer Technology (2022-23) <br /><a href="https://www.virtusa.com">Virtusa,</a> India</p><br /> 
                 

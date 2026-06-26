@@ -1,0 +1,20 @@
+on:
+  push:
+    branches:
+      main
+jobs:
+    deploy_job:
+      runs-on: ubuntu-latest
+      name: deploy
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v2
+        - name: Deploy file
+          uses: wlixcc/SFTP-Deploy-Action@v1.2.4
+          with:
+            username: ${{ secrets.IONOS_USER }}
+            password: ${{ secrets.IONOS_PASSWORD }}
+            server: ${{ secrets.IONOS_HOST }}
+            port: ${{ secrets.IONOS_PORT }}
+            remote_path: '/kunden/homepages/14/d4299624780/htdocs/sharondev'
+            sftp_only: true

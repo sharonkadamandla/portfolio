@@ -17,5 +17,6 @@ https://sharondev.com
 ## Version Control  
 Managed using **Git**  
 
-
+## Continuous Deployment
+Using **SFTP** to automatically deploy to server everytime the code is pushed to main branch
 

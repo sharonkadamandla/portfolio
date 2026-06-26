@@ -20,5 +20,5 @@ jobs:
           password: ${{ secrets.IONOS_PASSWORD }}
           port: ${{ secrets.IONOS_PORT }}
           local_path: ./*
-          remote_path: /sharondev/
+          remote_path: /kunden/homepages/14/d4299624780/htdocs/sharondev
           sftp_only: true

@@ -8,17 +8,21 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Deploy via SFTP
-        uses: wlixcc/SFTP-Deploy-Action@v1.2.4
-        with:
-          server: ${{ secrets.IONOS_HOST }}
-          username: ${{ secrets.IONOS_USER }}
-          password: ${{ secrets.IONOS_PASSWORD }}
-          port: ${{ secrets.IONOS_PORT }}
-          local_path: ./*
-          remote_path: /kunden/homepages/14/d4299624780/htdocs/sharondev
-          sftp_only: true
+      - name: Install sshpass
+        run: sudo apt-get install -y sshpass
+
+      - name: Deploy via rsync over SSH
+        env:
+          SSHPASS: ${{ secrets.IONOS_PASSWORD }}
+        run: |
+          sshpass -e rsync -avz --delete \
+            -e "ssh -p ${{ secrets.IONOS_PORT }} -o StrictHostKeyChecking=no" \
+            --exclude='.git' \
+            --exclude='.github' \
+            --exclude='README.md' \
+            ./ ${{ secrets.IONOS_USER }}@${{ secrets.IONOS_HOST }}:/kunden/homepages/14/d4299624780/htdocs/sharondev/

@@ -19,6 +19,6 @@ jobs:
           username: ${{ secrets.IONOS_USER }}
           password: ${{ secrets.IONOS_PASSWORD }}
           port: ${{ secrets.IONOS_PORT }}
-          local-dir: ./*
-          server-dir: /sharondev/
+          local_path: ./*
+          remote_path: /sharondev/
           sftp_only: true

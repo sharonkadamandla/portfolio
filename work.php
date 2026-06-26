@@ -1,10 +1,11 @@
 <?php include 'header.php'; ?>
 
 <section id="project">
-        <p class="section__text__p1">Browse My Recent</p>
-        <h1 class="title">Projects</h1>
+        
 
         <div class="work-containers"></div>
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
         <div class="project-details-container">
           <div class="project-containers">
 

@@ -189,8 +189,9 @@ a:hover {
 
 section {
   padding-top: 80px;
-  /* min-height: 100vh; */
+  min-height: 100vh;
   height: auto;
+  /* scroll-margin-top: 100px; */
   margin: 0 10rem;
   box-sizing: border-box;
   min-height: fit-content;
@@ -207,7 +208,7 @@ section {
   display: flex;
   justify-content: center;
   gap: 5rem;
-  height: 95vh;
+  height: 50vh;
 }
 
 .section__pic-container {
@@ -469,7 +470,7 @@ section {
   /* max-width: 1350px;  */
   margin: 10 auto;
   min-height: 100vh;
-
+  padding-top: 120px;
   height: auto;
   padding: 1 1rem;
 }
@@ -541,6 +542,9 @@ section {
 }
 
 @media (max-width: 420px) {
+  #about {
+    padding-top: 10px;
+  }
   .section__pic-container {
     width: min(60vw, 260px);
   }
@@ -643,6 +647,7 @@ article .icon {
 
 #project {
   position: relative;
+  padding-top: 120px;
 }
 
 /* .color-container {
@@ -660,6 +665,9 @@ article .icon {
 }
 
 @media (max-width: 768px) {
+  #project {
+    padding-top: 10px;
+  }
   .project-containers {
     min-height: auto;
     flex-direction: column;

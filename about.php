@@ -14,7 +14,6 @@
                 My bread and butter is Python & Spring Boot, with some side projects exploring NLP and Power BI dashboards because great products run on both scalable code and actionable insight.
               </p>
             </div>
-
             <div class="about-containers">
               <div class="details-container bg2">
                 <!-- <img

@@ -76,7 +76,7 @@
 
             <div class="mySlides">
               <div class="slide-content">
-                "RELABLE ENGINEER & STRONG TEAM PLAYER"</br>
+                "RELIABLE ENGINEER & STRONG TEAM PLAYER"</br>
                 I had the pleasure of working with Sharon at Virtusa, where she was an outstanding Software Engineer with strong expertise in Java and Python.
                  She took complete ownership of her module, which made collaboration seamless and highly efficient. 
                  Sharon consistently delivered clean, reliable code and approached every task with a strong sense of responsibility. 

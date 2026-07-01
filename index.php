@@ -81,7 +81,7 @@
                  She took complete ownership of her module, which made collaboration seamless and highly efficient. 
                  Sharon consistently delivered clean, reliable code and approached every task with a strong sense of responsibility. 
                  She was always the first to offer support. 
-                I highly recommend Sharon for any engineering role. </br> — Dhanush S (College)
+                I highly recommend Sharon for any engineering role. </br> — Dhanush S (Colleague)
               </div>
             </div>
 

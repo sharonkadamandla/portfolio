@@ -54,31 +54,34 @@
             <!-- Each slide has a solid background and text that can be customized -->
             <div class="mySlides">
               <div class="slide-content">
-                "Sharon built a new website for Harmony Road Baptist Church using Wix and designed it to be functional and elegant, 
+                "VISION DRIVEN & CREATIVE DEVELOPER" </br>
+                Sharon built a new website for Harmony Road Baptist Church using Wix and designed it to be functional and elegant, 
                 while still being easily maintained by users with limited technical ability. 
                 She was always collaborative through the building process, proposing ideas that fit within our vision, 
-                making detailed changes based on feedback, and suggesting unique solutions to problems." </br> — Nathan L
+                making detailed changes based on feedback, and suggesting unique solutions to problems. </br> — Nathan L (Manager)
 
               </div>
             </div>
 
             <div class="mySlides">
               <div class="slide-content">
-                "I had an excellent experience working with Sharon, on the Millennial’s Career Hub website. 
+                "TURNING VISION INTO REALITY" </br>
+                I had an excellent experience working with Sharon, on the Millennial’s Career Hub website. 
                 She followed every instruction with precision, paid close attention to detail, and translated my vision exactly as I had imagined it. 
                 Her professionalism, responsiveness, and ability to execute feedback efficiently truly stood out. 
                 The final website exceeded my expectations, both in functionality and design. 
-                I would highly recommend her to anyone looking for a reliable and skilled website developer." </br> - Disha M
+                I would highly recommend her to anyone looking for a reliable and skilled website developer. </br> - Disha M (Client)
               </div>
             </div>
 
             <div class="mySlides">
               <div class="slide-content">
-                "I had the pleasure of working with Sharon at Virtusa, where she was an outstanding Software Engineer with strong expertise in Java and Python.
+                "RELABLE ENGINEER & STRONG TEAM PLAYER"</br>
+                I had the pleasure of working with Sharon at Virtusa, where she was an outstanding Software Engineer with strong expertise in Java and Python.
                  She took complete ownership of her module, which made collaboration seamless and highly efficient. 
                  Sharon consistently delivered clean, reliable code and approached every task with a strong sense of responsibility. 
                  She was always the first to offer support. 
-                I highly recommend Sharon for any engineering role." </br> — Dhanush S
+                I highly recommend Sharon for any engineering role. </br> — Dhanush S (College)
               </div>
             </div>
 
